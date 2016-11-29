@@ -64,10 +64,16 @@ body {
   font-size: 50px;
   line-height: 50px;
 }
-.headline h3 {
-  text-transform: uppercase;
+.headline h2 {
+  font-size: 24px;
+  text-transform: capitalize;
 }
-
+.home-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .home-delivery, .home-2 {
   display: flex;
   justify-content: center;
@@ -84,6 +90,8 @@ body {
 }
 
 .images-container img {
+  height: auto;
+  max-width: 100%;
   float: left;
   padding: 0 50px;
   -webkit-transition: -webkit-transform .6s .9s;
@@ -123,9 +131,22 @@ body {
 .home-contact {
   display: flex;
   justify-content: center;
-  background: rgba(0,0,0, .8);
+  background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home-contact h1 {
+  align-self: center;
+}
+.home-contact {
+  width: 50%;
+  height: auto;
 }
 .footer {
   opacity: 0.2;
   align-self: flex-end;
+}
+
+#download {
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
 }
