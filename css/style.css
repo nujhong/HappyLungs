@@ -131,16 +131,14 @@ body {
 .home-contact {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.home-contact h1 {
+.home-contact .download {
   align-self: center;
 }
-.home-contact {
-  width: 50%;
-  height: auto;
-}
-.footer {
+
+.home-contact .footer {
   opacity: 0.2;
   align-self: flex-end;
 }
